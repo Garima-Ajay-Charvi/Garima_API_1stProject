@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <script src="http://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+
+    <title>Document</title>
+</head>
+
+<body>
+    <!--Quotation-->
+    <div class="container-fluid" id="top">
+        <div class="quotes">
+            <p class="quote">"Life is Beautiful"</p>
+            <p class="author">-Garima Jain</p>
+        </div>
+        <button type="submit" class="btn btn-warning" id="newQuote">New Quote</button>
+        <!--City Weather Input-->
+        <input type="text" id="searchCity" placeholder="City Name">
+        <button type="submit" class="btn btn-warning" id="newCity">Search</button>
+        <!--Again Quatation-->
+        <div id="myClockDisplay"></div>
+    </div>
+    <!--LOCAL_WEATHER-->
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-6" id="Mausam">
+                <h2 id="city">New Delhi</h2>
+                <div class="middle">
+                    <img src="" alt="icon" id="icon">
+                    <div class="degrees">
+                        <h1 id="temp">7</h1>
+                        <span id="cel">&#176;C</span>
+                    </div>
+                    <h3 id="desc">Clear Sky</h3>
+                    <h5 id="resp">Pressure: <span id="pressure">hPa</span></h5>
+                    <h5 id="resp">Wind: <span id="wind"></span>m/s </h5>
+                    <h5 id="resp">Rain: <span id="rain"></span>mm</h5>
+                </div>
+            </div>
+            <!--CITY_WEATHER-->
+            <div class="col-sm-6" id="Mausam2">
+                <h2 id="city2">New Delhi</h2>
+                <div class="middle">
+                    <img src="http://openweathermap.org/img/w/10d.png" alt="icon" id="icon2">
+                    <div class="degrees">
+                        <h1 id="temp2">7</h1>
+                        <span id="cel2">&#176;C</span>
+                    </div>
+                    <h3 id="desc2">Clear Sky</h3>
+                    <h5 id="resp2">Pressure: <span id="pressure2">hPa</span></h5>
+                    <h5 id="resp2">Wind: <span id="wind2"></span>m/s</h5>
+                    <h5 id="resp2">Rain: <span id="rain2"></span>mm</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid" id="bottom">
+            Designed and built with all the love in the world by Garima Jain. Maintained by the core team with the
+            help of our contributors.
+            <br> &copy; 2018.
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+
+</body>
+
+</html>

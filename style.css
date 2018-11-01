@@ -1,0 +1,132 @@
+body {
+    background-color: khaki!important;
+}
+
+/*QUOTATION & TIME----*/
+#top {
+    background-color:khaki;
+}
+#myClockDisplay {
+   text-align: right;
+   color: darkgreen;
+   font-size: 25px;
+}
+.quotes {
+    margin-top: 20px;
+    font-size: 25px;
+    color:rgb(141, 5, 5);
+}
+.author {
+    font-family: cursive;
+    font-size: 15px;
+}
+#newQuote, #newCity {
+    font-size: .75rem;
+    line-height: .5rem;
+    padding: .375rem .5rem;
+}
+#searchCity {
+background: transparent;
+}
+/*LOCAL_WEATHER----*/
+
+#Mausam h1, h2, h3 {
+    text-shadow: 2px 2px white;
+    margin: 0;
+}
+
+#Mausam h1 {
+    font-size: 14rem
+}
+#Mausam h2 {
+    font-size: 3rem;
+}
+#Mausam h3 {
+    font-size: 1.4rem;
+}
+#cel{
+    font-size: 6rem;
+    text-shadow: 2px 2px white;
+    margin: 0;
+}    
+#Mausam {
+    border: 1px solid blue;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq35AfRvpJ_bFzBPh9W9ESkWZ0rQpFcCMgOVFeW9AnzELIfjip");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+#Mausam .degrees {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+span #wind, #pressure, #rain{
+    font-size: 10px;
+}
+
+/*CITY_WEATHER----*/
+
+#Mausam2 h1, h2, h3 {
+    text-shadow: 2px 2px white;
+margin: 0;
+}
+
+#Mausam2 h1 {
+    font-size: 14rem
+}
+#Mausam2 h2 {
+    font-size: 3rem;
+}
+#Mausam2 h3 {
+    font-size: 1.4rem;
+}
+#cel2 {
+    font-size: 6rem;
+    text-shadow: 2px 2px white;
+margin: 0;
+}    
+#Mausam2 {
+    border: 1px solid blue;
+    text-align: center;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSq35AfRvpJ_bFzBPh9W9ESkWZ0rQpFcCMgOVFeW9AnzELIfjip");
+    background-repeat: no-repeat;
+    background-size: cover;
+ }
+#Mausam2 .degrees {
+    
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+}
+span #wind2, #pressure2, #rain2{
+    font-size: 10px;
+}
+span #pressure2 {
+    font-size: 10px;
+}
+
+
+/*---FOOTER----*/
+#bottom {
+    background-color: khaki;
+    color: darkgreen;
+    text-align: center;
+}
+
+/* --MediaQuery----*/
+@media (max-width:575px){
+        #wind, #pressure, #rain, #resp{
+        color: #fff;
+    }
+    #wind2, #pressure2, #rain2, #resp2{
+        color: #fff;
+    }
+    #bottom{
+        margin: 10px;
+     }
+     #Mausam {
+        width: 100%;
+        height: 100%;
+    }
+}
